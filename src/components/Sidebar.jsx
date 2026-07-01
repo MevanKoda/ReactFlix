@@ -11,7 +11,8 @@ function Sidebar({isOpened, setIsOpened}){
 
     return(
     
-        <div className={`relative lg:hidden ${isOpened ? "block" : "hidden"}`}>
+        <div className={`fixed inset-0 bg-blue-950 z-40 transition-opacity duration-100
+                    ${isOpened ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
             <button className="absolute top-10 right-10 text-4xl text-white" onClick={()=> setIsOpened(false)} ><MdCancel /></button>
         <div className="h-[100vh] flex justify-center items-center">
             <ul className="text-2xl text-blue-300 h-[50%]">

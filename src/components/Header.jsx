@@ -16,7 +16,7 @@ function Header(){
 
     return(
         <>
-            <div className={`justify-between items-center w-full p-8 bg-gray-900 ${isOpened ? "hidden" : "flex"}`}>
+            <div className={`justify-between items-center w-full p-8 bg-gray-900 flex`}>
                 <div className="flex items-center gap-6"> 
                     <button onClick={()=>setIsOpened(!isOpened)}><GiHamburgerMenu className='scale-140 text-blue-400 lg:hidden' /></button>
                     <h1 className="text-2xl font-semibold text-blue-400">ReactFlix</h1>
