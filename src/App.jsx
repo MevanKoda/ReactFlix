@@ -13,9 +13,9 @@ function App(){
     <BrowserRouter>
     <Header />
     <Routes>
-      <Route path="/" element={<Home />}></Route>
-      <Route path="/movies" element={<Movies />}></Route>
-      <Route path="/news" element={<News />}></Route>
+      <Route path="/ReactFlix/" element={<Home />}></Route>
+      <Route path="/ReactFlix/movies" element={<Movies />}></Route>
+      <Route path="/ReactFlix/news" element={<News />}></Route>
 
     </Routes>
 
