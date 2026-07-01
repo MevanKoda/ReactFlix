@@ -11,7 +11,7 @@
     "deploy" : "gh-pages -d dist",
     "predeploy" : "npm run build"
   },
-  "homepage": "https://MevanKoda.github.io/",
+  "homepage": "https://MevanKoda.github.io/ReactFlix",
 
   "dependencies": {
     "react": "^19.2.6",
