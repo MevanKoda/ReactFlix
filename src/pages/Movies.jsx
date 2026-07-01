@@ -6,6 +6,8 @@ import { IoFilter } from "react-icons/io5";
 
 import {GenreDecoder} from '../utils/genreMap.js'
 
+import Sidebar from '../components/Sidebar.jsx'
+
 
 
 
