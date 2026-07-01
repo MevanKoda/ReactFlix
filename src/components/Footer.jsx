@@ -29,9 +29,9 @@ function Footer(){
             </div>
             <div className="pt-6 lg:flex lg:w-1/3 lg:justify-center">
                 <ul className="flex justify-center gap-6 text-gray-400">
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/movies">Movies</NavLink></li>
-                    <li><NavLink to="/news">News</NavLink></li>
+                    <li><NavLink to="/ReactFlix/">Home</NavLink></li>
+                    <li><NavLink to="/ReactFlix/movies">Movies</NavLink></li>
+                    <li><NavLink to="/ReactFlix/news">News</NavLink></li>
                 </ul>
 
             </div>
