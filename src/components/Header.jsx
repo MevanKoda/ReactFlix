@@ -13,9 +13,9 @@ function Header(){
                     <GiHamburgerMenu className='scale-140 text-blue-400 lg:hidden' />
                     <h1 className="text-2xl font-semibold text-blue-400">ReactFlix</h1>
                     <ul className="hidden lg:flex lg:ml-4 lg:gap-8 lg:text-md text-gray-300">
-                        <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/movies">Movies</NavLink></li>
-                        <li><NavLink to="/news">News</NavLink></li>
+                        <li><NavLink to="/ReactFlix/">Home</NavLink></li>
+                        <li><NavLink to="/ReactFlix/movies">Movies</NavLink></li>
+                        <li><NavLink to="/ReactFlix/news">News</NavLink></li>
                     
 
                     </ul>
